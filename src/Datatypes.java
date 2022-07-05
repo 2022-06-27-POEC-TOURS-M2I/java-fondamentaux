@@ -19,5 +19,7 @@ public class Datatypes {
 //        Byte : une variante d'entier court
         byte age=89;
 
+        System.out.println("Je suis "+prenom+" "+nom+",j'ai "+age+" ans.Mon Tjm est de "+tjm+
+                " €");
     }
 }
