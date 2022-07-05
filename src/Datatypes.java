@@ -20,6 +20,10 @@ public class Datatypes {
         byte age=89;
 
         System.out.println("Je suis "+prenom+" "+nom+",j'ai "+age+" ans.Mon Tjm est de "+tjm+
-                " €");
+                " €.");
+
+        System.out.printf("Je suis %s %s,j'ai %d ans.Mon TJM est de %.1f€.\n",prenom,nom
+                ,age
+                ,tjm);
     }
 }
