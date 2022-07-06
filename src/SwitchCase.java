@@ -14,6 +14,7 @@ public class SwitchCase {
         //Sinon
         // Pays non reconnu
         Scanner input=new Scanner(System.in);
+        System.out.println(input);
         System.out.print("Veuillez entrer un pays : ");
         String pays=input.nextLine();
 
@@ -33,7 +34,6 @@ public class SwitchCase {
                 break;
             default:
                 System.out.println("Pays non reconnu");
-
         }
     }
 }
