@@ -15,7 +15,9 @@ public class BoucleFor {
         // Afficher le carre du nombre
         // compteur = compteur + 1
         //Fin pour
-        for(int compteur=1;compteur<=1000;compteur = compteur+1){
+
+        // compteur +=5
+        for(int compteur=1;compteur<=1000;compteur = compteur+5){
             System.out.printf("Le carre %d est %.1f\n",compteur,Math.pow(compteur,2));
         }
     }
