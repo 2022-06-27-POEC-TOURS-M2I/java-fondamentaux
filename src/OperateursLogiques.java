@@ -26,6 +26,5 @@ public class OperateursLogiques {
         }else {
             System.out.println("Incorrect");
         }
-
     }
 }
