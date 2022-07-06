@@ -21,5 +21,11 @@ public class PostAndPreIncrement {
         int y=++x;
         System.out.println("x : "+x);//4
         System.out.println("y : "+y);//4
+
+
+//        Exemple
+        int c=2;
+        c=c++;
+        System.out.println(c);
     }
 }
