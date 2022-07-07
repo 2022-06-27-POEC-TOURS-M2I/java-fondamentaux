@@ -1,7 +1,5 @@
 public class Tableaux {
     public static void main(String[] args) {
-        //Etudiant s'appelle Jean
-        String g;
         float note1=15.5F;
         float note2=18.2F;
         float note3=13.2F;
