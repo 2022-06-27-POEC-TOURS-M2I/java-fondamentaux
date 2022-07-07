@@ -18,7 +18,5 @@ public class TableauInitialization {
         for(float note:notes){
             System.out.println(note);
         }
-
-
     }
 }
