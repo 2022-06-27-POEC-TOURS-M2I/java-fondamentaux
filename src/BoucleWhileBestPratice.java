@@ -15,6 +15,8 @@ public class BoucleWhileBestPratice {
         int codePINATester;
 
 //        Limiter le nombre de tentatives à 3.Mais ne pas utiliser une boucle for
+//        Si au bout 3 tentatives, le code PIN n'est toujours pas correct, alors on
+//        affiche "Votre appareil est bloqué, et on sort de la boucle"
         while (true){
             System.out.print("Entrer un code PIN pour déverouiller l'appareil " +
                     ": ");
