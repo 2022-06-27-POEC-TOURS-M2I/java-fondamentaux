@@ -10,6 +10,8 @@ public class FunctionsIntro {
         String newStr=chaine.replaceAll("[^A-Za-z]","").toLowerCase();
         return newStr;
     }
+
+
     public static void main(String[] args) {
         System.out.println(somme(4,5));
         System.out.println(deleteSpecialChars("papy est gentil"));
