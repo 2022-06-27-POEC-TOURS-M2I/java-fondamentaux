@@ -1,3 +1,5 @@
+package fondamentaux;
+
 public class StringType {
     public static void main(String[] args) {
         String phrase="Je suis développeur";

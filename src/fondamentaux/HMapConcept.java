@@ -1,3 +1,5 @@
+package fondamentaux;
+
 import java.util.HashMap;
 
 public class HMapConcept {

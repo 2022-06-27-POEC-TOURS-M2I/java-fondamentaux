@@ -1,3 +1,5 @@
+package fondamentaux;
+
 public class PostAndPreIncrement {
     public static void main(String[] args) {
         int a=2;

@@ -1,3 +1,5 @@
+package fondamentaux;
+
 public class TableauSuite {
     public static void main(String[] args) {
         float[] notes={15.5F,18.2F,13.2F,10,14.6F};

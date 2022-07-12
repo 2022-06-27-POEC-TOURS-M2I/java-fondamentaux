@@ -1,3 +1,5 @@
+package fondamentaux;
+
 public class MethodeMath {
     public static void main(String[] args) {
 //        Convention pour les constantes en Java

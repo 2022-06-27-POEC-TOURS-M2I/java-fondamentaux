@@ -1,3 +1,5 @@
+package fondamentaux;
+
 import java.util.Scanner;
 
 public class BoucleWhileExo {

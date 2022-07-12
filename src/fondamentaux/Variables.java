@@ -1,3 +1,5 @@
+package fondamentaux;
+
 public class Variables {
     public static void main(String[] args) {
         int longueur=200;

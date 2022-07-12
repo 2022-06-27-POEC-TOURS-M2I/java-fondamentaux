@@ -1,3 +1,5 @@
+package fondamentaux;
+
 public class BoucleFor {
     public static void main(String[] args) {
 //        System.out.printf("Le carré de 1 est %f",Math.pow(1,2));

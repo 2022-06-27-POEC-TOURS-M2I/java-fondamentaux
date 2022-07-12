@@ -1,6 +1,8 @@
+package fondamentaux;
+
 import java.util.Scanner;
 
-public class BoucleWhile {
+public class BoucleWhilev2 {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
 
@@ -9,9 +11,9 @@ public class BoucleWhile {
         int codePIN=input.nextInt();
 
 //        Essayer de deverouiller le téléphone avec un code PIN
-        int codePINATester=0;
+        int codePINATester;
 
-        while (codePINATester!=codePIN){
+        while (true){
             System.out.print("Entrer un code PIN pour déverouiller l'appareil " +
                     ": ");
             codePINATester=input.nextInt();//1234
@@ -21,8 +23,8 @@ public class BoucleWhile {
                 System.out.println("**************************");
                 System.out.println("** Appareil déverouillé **");
                 System.out.println("**************************");
+                break;
             }
         }
-
     }
 }

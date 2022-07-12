@@ -1,3 +1,5 @@
+package fondamentaux;
+
 public class Tableaux {
     public static void main(String[] args) {
         float note1=15.5F;

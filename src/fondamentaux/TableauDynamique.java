@@ -1,3 +1,5 @@
+package fondamentaux;
+
 import java.util.ArrayList;
 
 public class TableauDynamique {
