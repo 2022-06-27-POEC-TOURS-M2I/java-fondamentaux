@@ -1,7 +1,5 @@
 package poo;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         // Objet => Instance
@@ -18,5 +16,11 @@ public class Main {
         System.out.printf("Marque : %s\nModèle : %s\nNombre sieges : %d\nCouleur : %s\n",
                 airbusA320.getFabricant(),
                 airbusA320.getModele(),airbusA320.getNombreSieges(),airbusA320.getCouleur());
+
+        System.out.println("\n");
+        Avion monAvion=new Avion();
+        System.out.printf("Marque : %s\nModèle : %s\nNombre sieges : %d\nCouleur : %s\n",
+                monAvion.getFabricant(),
+                monAvion.getModele(),monAvion.getNombreSieges(),monAvion.getCouleur());
     }
 }
