@@ -23,6 +23,13 @@ public class Avion {
         nombreSieges=50;
         couleur="white";
     }
+
+    public Avion(Avion avion){
+        this.fabricant=avion.fabricant;
+        this.modele=avion.modele;
+        this.couleur=avion.couleur;
+        this.nombreSieges= avion.nombreSieges;
+    }
 //    Getters ou Accesseurs
     public String getFabricant(){
         return fabricant;
