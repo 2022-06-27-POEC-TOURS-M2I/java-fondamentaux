@@ -1,5 +1,10 @@
 package poo;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+
 public class Main {
     public static void main(String[] args) {
         // Objet => Instance
@@ -27,9 +32,9 @@ public class Main {
 
 //        Utilisation du constructeur de copie
         Avion airbusA330=new Avion(airbusA320);
-        airbusA330.setModele("A330");
-        System.out.println(airbusA320.getModele());
-        System.out.println(airbusA330.getModele());
+
+        System.out.println("Compare les références : airbusA330 == airbusA320 : "+(airbusA330==airbusA320));
+        System.out.println("Compare les attributs : airbusA330.equals(airbusA320) : "+(airbusA330.equals(airbusA320)));
 
         System.out.println("\n");
         Avion monAvion=new Avion();
