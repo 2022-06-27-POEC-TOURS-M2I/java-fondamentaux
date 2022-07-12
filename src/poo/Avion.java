@@ -25,20 +25,20 @@ public class Avion {
     }
 
 //    Setters ou manipulateurs
-    public void setFabricant(String nouvelleValeur){
-        fabricant=nouvelleValeur;
+    public void setFabricant(String fabricant){
+        this.fabricant=fabricant;
     }
 
-    public void setModele(String nouvelleValeur){
-        modele=nouvelleValeur;
+    public void setModele(String modele){
+        this.modele=modele;
     }
 
-    public void setCouleur(String nouvelleValeur){
-        couleur=nouvelleValeur;
+    public void setCouleur(String couleur){
+        this.couleur=couleur;
     }
 
-    public void setNombreSieges(int nouvelleValeur){
-        nombreSieges=nouvelleValeur;
+    public void setNombreSieges(int nombreSieges){
+        this.nombreSieges=nombreSieges;
     }
 
 
