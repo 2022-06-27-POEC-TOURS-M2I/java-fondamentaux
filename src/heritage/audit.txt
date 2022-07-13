@@ -1,0 +1,14 @@
+Points communs de toutes les classes:
+
+#Attributs
+
+-> nom
+-> dureeDeVie
+
+#Méthodes
+
+-> rencontrer()
+-> getNom()
+-> setNom()
+-> getDureeDeVie()
+-> setDureeDeVie()
