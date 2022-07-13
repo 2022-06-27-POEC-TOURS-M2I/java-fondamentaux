@@ -1,10 +1,12 @@
 package fondamentaux;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class TableauDynamique {
     public static void main(String[] args) {
         ArrayList<Integer> notes=new ArrayList<>();
+        ArrayList<String> fruits=new ArrayList<>();
         System.out.println("1 : Taille du tableau => "+notes.size());
         notes.add(15);
         notes.add(17);

@@ -22,4 +22,8 @@ public class Sorcier extends Magicien {
         System.out.println("Je vais te transformer en biscuit.");
     }
 
+    @Override
+    public String toString() {
+        return super.toString()+String.format("Baton magique : %s",batonMagique);
+    }
 }

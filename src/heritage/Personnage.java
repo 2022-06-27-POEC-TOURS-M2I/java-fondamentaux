@@ -1,6 +1,6 @@
 package heritage;
 
-public class Personnage {
+abstract public class Personnage {
     private String nom;
     private int dureeDeVie;
 
@@ -26,12 +26,12 @@ public class Personnage {
         this.dureeDeVie = dureeDeVie;
     }
 
-    public void rencontrer(){
-        System.out.println("Je suis un personnage");
-    }
+    public abstract void rencontrer();
 
     @Override
     public String toString() {
         return String.format("Nom : %s\nDurée de vie : %d\n",nom,dureeDeVie);
     }
+
+
 }
