@@ -1,6 +1,6 @@
 package interfaces;
 
-public class SuperHerosVolant extends SuperHeros{
+public class SuperHerosVolant extends SuperHeros implements Voler{
     private double altitude;
 
     public SuperHerosVolant(String name, String dateDeNaissance, int niveauDePouvoir,
