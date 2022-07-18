@@ -1,0 +1,41 @@
+@startuml
+class heritage.Main {
++ {static} void main(String[])
+}
+class heritage.Sorcier {
+- String batonMagique
++ String getBatonMagique()
++ void setBatonMagique(String)
++ void rencontrer()
++ String toString()
+}
+class heritage.Magicien {
+- String baguette
++ String getBaguette()
++ void setBaguette(String)
++ void rencontrer()
++ String toString()
+}
+abstract class heritage.Personnage {
+- String nom
+- int dureeDeVie
++ String getNom()
++ void setNom(String)
++ int getDureeDeVie()
++ void setDureeDeVie(int)
++ {abstract}void rencontrer()
++ String toString()
+}
+class heritage.Guerrier {
+- String arme
++ String getArme()
++ void setArme(String)
++ String toString()
++ void rencontrer()
+}
+
+
+heritage.Magicien <|-- heritage.Sorcier
+heritage.Personnage <|-- heritage.Magicien
+heritage.Personnage <|-- heritage.Guerrier
+@enduml
