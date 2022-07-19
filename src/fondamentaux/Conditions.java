@@ -24,7 +24,7 @@ public class Conditions {
             System.out.println("Vous êtes mineur");
         }
 
-//        Test d'égalité
+//        revisions_bonnes_pratiques.Test d'égalité
         int a=1,b=2;
         if(a!=b){
             System.out.println("a et b sont différents");
